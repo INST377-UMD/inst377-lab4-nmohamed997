@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Form</title>
+  <link rel="stylesheet" href="lab4.css">
+</head>
+<body>
+  <h1 id="main-heading">Interactive JavaScript Page</h1>
+
+  <div class="section" id="alert-me-section">
+    <h2>Alert Me</h2>
+    <form id="alertForm">
+      <label for="name">Enter your name:</label>
+      <input type="text" id="name" required>
+      <button type="button" onclick="alertMe()">Alert Me</button>
+    </form>
+  </div>
+
+  <div class="section" id="change-color-section">
+    <h2>Change Color</h2>
+    <button type="button" onclick="changeColor()">Change Color</button>
+  </div>
+
+  <div class="section" id="text-tester-section">
+    <h2>Text Tester</h2>
+    <form id="validateForm">
+      <label for="text">Enter text:</label>
+      <input type="text" id="text" required>
+      <button type="button" onclick="validateText()">Validate Text</button>
+    </form>
+  </div>
+
+  <div class="section" id="add-text-section">
+    <h2>Add Text</h2>
+    <button type="button" onclick="addText()">Add Text</button>
+  </div>
+
+  <script src="lab4.js"></script>
+</body>
+</html>
